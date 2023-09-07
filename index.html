@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA TYPES IN JS</title>
+</head>
+<body bgcolor="lightblue";>
+    <script>
+        document.write("Checking numbers:"+"<br>");
+        
+        document.write("10:");
+        document.write(typeof 10 + "<br>");
+        
+        document.write("10.0");
+        document.write(typeof 10.0 + "<br>");
+        
+        document.write("987654321123452n:");
+        document.write(typeof 987654321123452n +"<br>"+"<br>");
+        
+        document.write("Checking Strings:"+"<br>");
+        
+        document.write("HrudayPrabhath:");
+        document.write(typeof "HrudayPrabhath" + "<br>"+"<br>");
+        
+        document.write("Checking Symbol:"+"<br>");
+
+        const symbol1 = Symbol(1);
+        document.write("symbol1:");
+        document.write(typeof symbol1+"<br>");
+        
+        const symbol2=Symbol(2);
+        document.write("symbol2:");
+        document.write(typeof symbol2+"<br>"+"<br>");
+       
+        document.write("Checking Objects and Functions:"+"<br>");
+        var name1=null;
+        document.write("null: ");
+        document.write(typeof name1+"<br>");
+       
+        document.write("Object1:");
+        document.write(typeof {} + "<br>");
+       
+        document.write("Object2");
+        document.write(typeof {} + "<br>");
+        
+        document.write("array1:");
+        document.write(typeof [] + "<br>");
+        
+        document.write("MyFunction:");
+        document.write(typeof function MyFunction(){} +"<br>"+"<br>")
+
+        document.write("Checking Undefined:"+"<br>");
+        var MyVariable;
+        document.write("MyVariable:");
+        document.write(typeof MyVariable + "<br>" );
+
+        documnet.write("Checking Booleans:" + "<br>");
+        
+        document.write("3 < 5:");
+        document.write(typeof (3 < 5) +"<br>");
+        
+        document.write("12  =='12':");
+        document.write(typeof (12 == '12')+"<br>"+"<br>");
+    </script>
+</body>
+</html>
